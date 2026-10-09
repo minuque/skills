@@ -114,11 +114,7 @@ function expandSkill(command: string): string {
 }
 ```
 
-- For a visual UI, layout, state comparison, or concept too dense for Mermaid, write one focused HTML file — a diagram, an infographic, or a short slide deck, whichever fits the point. Match the product's colors, type, spacing, and components; use real labels and data; support desktop and mobile. Then open it for the user:
-
-```
-Bash(open path/to/show-me-{description}.html)
-```
+- 需要独立的整页 HTML（视觉 UI、布局、状态对比、概念太密塞不进 mermaid）时，用 answer-me-with-html 出一页，用 `--no-open` 渲染，并把 file:// 链接放在回答最后一行。不再手写单文件 HTML。
 
 - Place each visual next to the short text it supports. Keep only the calls, files, props, states, and boundaries needed to answer the user's current question.
 
