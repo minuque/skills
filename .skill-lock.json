@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "skills": {
+    "answer-me-with-html": {
+      "source": "QingYunA/answer-me-with-html",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/QingYunA/answer-me-with-html.git",
+      "skillPath": "skills/answer-me-with-html/SKILL.md",
+      "skillFolderHash": "6c5a86029530302838e68345b2a6fb7d9e81da1b",
+      "installedAt": "2026-10-09T04:12:55.044Z",
+      "updatedAt": "2026-10-09T04:12:55.044Z"
+    }
+  },
+  "dismissed": {}
+}

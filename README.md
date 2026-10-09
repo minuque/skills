@@ -1,6 +1,6 @@
 # skills
 
-个人技能集合，每个目录一个技能，遵循 `SKILL.md`（YAML frontmatter + 正文）约定，可用于 Claude Code、pi、Codex 等支持该约定的 agent。
+agent 与技能的配置仓库：`AGENTS.md` 是全局规则，`skills/` 下的每个目录是一个技能，遵循 `SKILL.md`（YAML frontmatter + 正文）约定，可用于 Claude Code、pi、Codex 等支持该约定的 agent。
 
 ## 技能
 
@@ -19,10 +19,10 @@
 
 ## 使用
 
-整体克隆到 agent 的技能目录：
+整体克隆到 agent 的根目录：
 
 ```bash
-git clone https://github.com/minuque/skills.git ~/.agents/skills
+git clone https://github.com/minuque/skills.git ~/.agents
 ```
 
-也可以只取用单个技能，把对应目录复制进自己的技能目录即可。
+也可以只取用单个技能，把 `skills/` 下对应目录复制进自己的技能目录即可。

@@ -1,0 +1,6 @@
+# 运行时与本地缓存
+.cache/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
