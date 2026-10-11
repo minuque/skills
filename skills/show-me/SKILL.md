@@ -1,6 +1,6 @@
 ---
 name: show-me
-description: Help the user understand the current topic visually with concise diagrams, code-shape sketches, and focused HTML artifacts.
+description: Show the current topic inline with the smallest diagram that makes the point - pseudocode, call tree, component tree, file tree, Mermaid, or a diff. Inline visuals only; for a standalone full-page HTML explainer use answer-me-with-html.
 ---
 
 Help the user understand the current topic of conversation visually. Skip the preamble and keep prose brief. Pick the smallest view that makes the key point clear.
@@ -114,8 +114,12 @@ function expandSkill(command: string): string {
 }
 ```
 
-- 需要独立的整页 HTML（视觉 UI、布局、状态对比、概念太密塞不进 mermaid）时，用 answer-me-with-html 出一页，用 `--no-open` 渲染，并把 file:// 链接放在回答最后一行。不再手写单文件 HTML。
-
 - Place each visual next to the short text it supports. Keep only the calls, files, props, states, and boundaries needed to answer the user's current question.
+
+## Scope
+
+This skill produces inline visuals only: fenced `text`, `tsx`, `mermaid` or `diff` blocks inside the reply. Never hand-write HTML, CSS or SVG.
+
+For a standalone page - visual UI, layout, state comparison, or more concepts than one Mermaid diagram can hold - use the **answer-me-with-html** skill. That skill owns the draft, the render command and the `file://` link.
 
 You may use one of these, you may use several, it is unlikely you will use all of them. Use your judgement and don't overwhelm the user.

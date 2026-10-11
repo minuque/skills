@@ -15,7 +15,7 @@ agent 与技能的配置仓库：`AGENTS.md` 是全局规则，`skills/` 下的�
 - **no-patch-optimal** — 在共享路径上按最优解法改根因，不打补丁。
 - **ponytail-review** — 过度设计审查：只查臃肿与 YAGNI，不改代码。
 - **pulls-review** — 用 `npx pulls.review` 把一次 diff 做成浏览器里分组、带摘要的审查。
-- **show-me** — 用示意图、代码形状草图和聚焦的 HTML 产物把当前话题讲清楚。
+- **show-me** — 用内嵌示意图和代码形状草图把当前话题讲清楚，只管内嵌图；独立的整页 HTML 走 answer-me-with-html。
 
 ## 使用
 

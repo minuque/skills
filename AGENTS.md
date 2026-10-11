@@ -8,8 +8,7 @@
 ## 回复
 
 - 提问先回答；处理反馈先表态，已改就说改了。
-- 输出按理解成本升级：列表能说清用列表；说不清用 **show-me** skill 出图；需要交互出单文件 HTML。图和 HTML 是一次性产物，不刻意沉淀。show-me 只管内嵌在回答里的图（mermaid、伪代码、调用树、diff）；任何独立的整页 HTML 都走 answer-me-with-html。
-- [answer-me-with-html always-on] 只要一轮回答给出结论、小结、方案、对比、审查或讲解，即使很短，也用 answer-me-with-html skill 出一页（日常回答 2 到 4 个面板）；先用 --no-open 渲染，再写文字回答，并在回答最后一行给出 file:// 链接。闲聊、没有结论的一两句话、纯命令输出，以及明确要纯文本的请求，不出页。
+- 输出按理解成本升级：列表能说清用列表；说不清用 **show-me** skill 出图；需要交互出单文件 HTML。图和 HTML 是一次性产物，不刻意沉淀。show-me 只管内嵌在回答里的图（mermaid、伪代码、调用树、diff）。独立的整页 HTML：讲解页走 answer-me-with-html；强交互或实时渲染（拖拽、表单、实时计算、动画）手写单文件 HTML。
 
 ## 代码质量
 

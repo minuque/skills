@@ -6,10 +6,27 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/QingYunA/answer-me-with-html.git",
       "skillPath": "skills/answer-me-with-html/SKILL.md",
-      "skillFolderHash": "6c5a86029530302838e68345b2a6fb7d9e81da1b",
+      "skillFolderHash": "841603f581caa0e8da90bf750d88f5fea7aeef0f",
       "installedAt": "2026-10-09T04:12:55.044Z",
-      "updatedAt": "2026-10-09T04:12:55.044Z"
+      "updatedAt": "2026-10-11T02:54:57.905Z"
     }
   },
-  "dismissed": {}
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "droid",
+    "gemini-cli",
+    "github-copilot",
+    "kilo",
+    "kimi-code-cli",
+    "opencode",
+    "pi",
+    "warp",
+    "zed"
+  ]
 }
