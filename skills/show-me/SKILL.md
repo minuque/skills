@@ -120,6 +120,6 @@ function expandSkill(command: string): string {
 
 This skill produces inline visuals only: fenced `text`, `tsx`, `mermaid` or `diff` blocks inside the reply. Never hand-write HTML, CSS or SVG.
 
-For a standalone page - visual UI, layout, state comparison, or more concepts than one Mermaid diagram can hold - use the **answer-me-with-html** skill. That skill owns the draft, the render command and the `file://` link.
+Do not produce a page just because the topic is large. Use **answer-me-with-html** only when the user asked for a standalone page or invoked that skill. Do not open a browser. That skill owns the draft and the render command.
 
 You may use one of these, you may use several, it is unlikely you will use all of them. Use your judgement and don't overwhelm the user.
