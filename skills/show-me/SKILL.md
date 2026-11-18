@@ -1,6 +1,7 @@
 ---
 name: show-me
-description: Show the current topic inline with the smallest diagram that makes the point - pseudocode, call tree, component tree, file tree, Mermaid, or a diff. Inline visuals only; for a standalone full-page HTML explainer use answer-me-with-html.
+description: Help the user understand the current topic visually with concise diagrams, code-shape sketches, and focused HTML artifacts.
+disable-model-invocation: false
 ---
 
 Help the user understand the current topic of conversation visually. Skip the preamble and keep prose brief. Pick the smallest view that makes the key point clear.
@@ -114,12 +115,14 @@ function expandSkill(command: string): string {
 }
 ```
 
-- Place each visual next to the short text it supports. Keep only the calls, files, props, states, and boundaries needed to answer the user's current question.
+- For a visual UI, layout, state comparison, or concept too dense for Mermaid, write one focused HTML file — a diagram, an infographic, or a short slide deck, whichever fits the point. Match the product's colors, type, spacing, and components; use real labels and data; support desktop and mobile. Then open it for the user:
 
-## Scope
+```
+Bash(open path/to/show-me-{description}.html)
+```
 
-This skill produces inline visuals only: fenced `text`, `tsx`, `mermaid` or `diff` blocks inside the reply. Never hand-write HTML, CSS or SVG.
+### guidance
 
-Do not produce a page just because the topic is large. Use **answer-me-with-html** only when the user asked for a standalone page or invoked that skill. Do not open a browser. That skill owns the draft and the render command.
+Place each visual next to the short text it supports. Keep only the calls, files, props, states, and boundaries needed to answer the user's current question or the options to resolve the current discussion point.
 
 You may use one of these, you may use several, it is unlikely you will use all of them. Use your judgement and don't overwhelm the user.

@@ -1,14 +1,23 @@
 {
   "version": 3,
   "skills": {
-    "answer-me-with-html": {
-      "source": "QingYunA/answer-me-with-html",
+    "mole": {
+      "source": "tw93/Mole",
       "sourceType": "github",
-      "sourceUrl": "https://github.com/QingYunA/answer-me-with-html.git",
-      "skillPath": "skills/answer-me-with-html/SKILL.md",
-      "skillFolderHash": "841603f581caa0e8da90bf750d88f5fea7aeef0f",
-      "installedAt": "2026-10-09T04:12:55.044Z",
-      "updatedAt": "2026-10-11T02:54:57.905Z"
+      "sourceUrl": "https://github.com/tw93/Mole.git",
+      "skillPath": "skills/mole/SKILL.md",
+      "skillFolderHash": "4cfcaebb6868f81fd8e5e66f235eba73ecaad57a",
+      "installedAt": "2026-10-24T03:15:29.374Z",
+      "updatedAt": "2026-10-24T03:15:41.193Z"
+    },
+    "show-me": {
+      "source": "humanlayer/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/humanlayer/skills.git",
+      "skillPath": "plugins/show-me/skills/show-me/SKILL.md",
+      "skillFolderHash": "362200ac2fb3c17b765049444e88de73767e6d08",
+      "installedAt": "2026-11-03T11:42:57.010Z",
+      "updatedAt": "2026-11-03T11:42:57.010Z"
     }
   },
   "dismissed": {
@@ -20,6 +29,7 @@
     "codex",
     "cursor",
     "droid",
+    "fx",
     "gemini-cli",
     "github-copilot",
     "kilo",
@@ -27,6 +37,7 @@
     "opencode",
     "pi",
     "warp",
-    "zed"
+    "zed",
+    "claude-code"
   ]
 }
