@@ -6,8 +6,7 @@ agent 与技能的配置仓库：`AGENTS.md` 是全局规则，`skills/` 下的�
 
 - **bro** — 用大白话复述上一条消息，去掉术语。
 - **grill-me** — 就一个方案、决定或想法连环追问，把思路逼清楚。
-- **handoff** — 把当前会话压缩成交接文档，供下一个 agent 接手。
-- **no-commit-yet** — 本轮会话暂不 git commit。
+- **mole** — 驱动 Mole CLI（`mo`）查磁盘占用、预览并执行清理、卸载应用、读系统健康与清理历史。
 - **ponytail-review** — 过度设计审查：只查臃肿与 YAGNI，不改代码。
 - **show-me** — 用内嵌示意图和代码形状草图把当前话题讲清楚。
 

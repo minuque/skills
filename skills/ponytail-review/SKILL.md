@@ -1,6 +1,6 @@
 ---
 name: ponytail-review
-description: 过度设计审查：只查臃肿与 YAGNI，不改代码。用户调用或 /skill:ponytail-review 时使用。
+description: 过度设计审查：只查臃肿与 YAGNI，不改代码。
 disable-model-invocation: true
 ---
 

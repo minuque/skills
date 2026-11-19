@@ -4,3 +4,6 @@
 *.tmp
 .DS_Store
 Thumbs.db
+
+# kero 由自身安装器软链进 skills/，不进版本控制
+skills/kero/
